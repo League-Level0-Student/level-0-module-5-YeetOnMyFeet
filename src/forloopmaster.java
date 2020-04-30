@@ -1,15 +1,16 @@
 
 public class forloopmaster {
 public static void main(String[] args) {
-	for (int i = 1; i < 3; i++) {
-		
-		for (int j = 2; j < 3; j++) {
+	int one = 1;
+	for (int i = 1; i < 4; i++) {
+
 			
-			for (int j2 = 3; j2 < 3; j2++) {
-				System.out.println(i + " " + j + " "+ j2);
+			for (int j2 = 2; j2 < 5; j2++) {
+				System.out.print(one++);
 			}
+			System.out.println( );
 		}
-	}
+	
 	
 }
 }
